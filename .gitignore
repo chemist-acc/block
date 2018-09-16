@@ -1,0 +1,12 @@
+*.ko
+*.cmd
+*.o
+*mk
+.tmp_versions
+*.symvers
+*.order
+*.mod.c
+*.c~
+*.h~
+tags
+
