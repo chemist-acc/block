@@ -55,7 +55,7 @@ static void do_ramblock_request(struct request_queue * q){
 		}		
 		
 		//end_request(req, 1);
-		__blk_end_request_all(req,0);
+		__blk_end_request_all(req, BLK_STS_OK);
 	}
 }
  
